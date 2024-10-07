@@ -1,0 +1,19 @@
+SELECT name 
+FROM sys.databases;
+
+
+USE summaryData;
+GO
+
+SELECT TABLE_NAME 
+FROM INFORMATION_SCHEMA.TABLES 
+WHERE TABLE_TYPE = 'BASE TABLE';
+
+
+Select * from Person;
+
+INSERT INTO Person (FirstName, LastName, Department, PW, EmployeeID)
+VALUES
+('Wilman', 'Clover', 'Sale', 'O#1djXtYy@z5', '0001'),
+('Greasy', 'Burger', 'It', '1#wv!TtK8Nqi', '0002'),
+('Tasty', 'Tee', 'HR', 'pt$r4K!qOzZ5', '0003');
