@@ -1,7 +1,7 @@
 'use strict'
 document.getElementById('title').innerText = 'สวัสดีครับ JavaScript ใช้งานได้'
 
-
+//############1.3 Type System###############
 // let n1 = 10
 // let n2 = true
 // let n3 = 'Hello'
@@ -22,7 +22,7 @@ document.getElementById('title').innerText = 'สวัสดีครับ Jav
 // }
 // console.log(typeof sayHello)
 
-//number type
+//############1.5 number type###############
 // let n1 = 12 //Int
 // let n2 = 12.52 //Floating
 // let n3 = NaN // Not a Number เกิดจากการแปลงค่าแต่ค่านั้นไม่ใช่ number
@@ -51,7 +51,7 @@ document.getElementById('title').innerText = 'สวัสดีครับ Jav
 // let days = 1
 // console.log(days*24)
 
-//string
+//############1.6 string type###############
 // let s1 = 'Hello'
 // let s2 = "Hello"
 // console.log(s1, s2)
@@ -88,7 +88,7 @@ document.getElementById('title').innerText = 'สวัสดีครับ Jav
 
 // console.log(`1. ${name1}\n2. ${name2}\n3. ${name3}\n`)
 
-//Interaction
+//#################1.7 Interaction###########################
 // let firstName = 'John'
 // let lastName = 'Doe'
 // alert(`ชื่อของคุณคือ ${firstName} ${lastName}`)
@@ -99,7 +99,7 @@ document.getElementById('title').innerText = 'สวัสดีครับ Jav
 // let x = prompt('x')
 // let y = prompt('y')
 // alert(Number(x)+Number(y))
- 
+
 // let areyousure = confirm('Are you sure?')
 // alert(areyousure)
 
@@ -111,7 +111,7 @@ document.getElementById('title').innerText = 'สวัสดีครับ Jav
 // ${x}*${y}=${Number(x)*Number(y)}
 // ${x}/${y}=${Number(x)/Number(y)}`)
 
-//array
+//#################1.8 array###########################
 // let fruits = ['Apple','Banana','Cherry','Mango','Melon']
 // console.log(fruits)
 // console.log(fruits.length)
@@ -156,3 +156,94 @@ document.getElementById('title').innerText = 'สวัสดีครับ Jav
 
 // let s3 = students[3]
 // console.log(`${s3[0]} ${s3[1]} (Grade: ${s3[2]})`)
+
+//#################1.9 object###########################
+// let studentObj = { 
+//     firstName: 'John',
+//     lastName: 'Doe',
+//     age: 18,
+//     grade: 3.23,
+//     isActive: true,
+//     'custom-field': false
+// }
+// console.log(`${studentObj.firstName} ${studentObj.lastName} (Age: ${studentObj.age})`)
+// console.log(`${studentObj["custom-field"]}`)
+// let getKay = 'grade'
+// console.log(`${studentObj.getKay}`)
+// console.log(`${studentObj[getKay]}`)
+
+// studentObj.age = 19
+// studentObj.reward = 2
+// console.log(`${studentObj.reward}`)
+// delete studentObj['custom-field']
+// console.log(`${studentObj['custom-field']}`)
+
+// let data = {
+//     a: { first: 5152, seound: 6123, third: 6122},
+//     b: {first: 124, secound: 723}
+// }
+// console.log(data.a.third)
+// console.log(data.c?.third)
+
+//#############work shop###################################
+// let students = [
+//     {
+//         firstName: 'John',
+//         lastName: 'Doe',
+//         grade: 3.5
+//     },
+//     {
+//         firstName: 'Jane',
+//         lastName: 'Doe',
+//         grade: 3
+//     },
+//     {
+//         firstName: 'Joe',
+//         lastName: 'Doe',
+//         grade: 4
+//     },
+//     {
+//         firstName: 'James',
+//         lastName: 'Doe',
+//         grade: 2
+//     },
+//     {
+//         firstName: 'Joly',
+//         lastName: 'Doe',
+//         grade: 2.5
+//     }
+// ]
+// console.log(students[2])
+// console.log(`${students[2].firstName} ${students[2].lastName} (Grade: ${students[2].grade})`)
+
+//##############Compare Object##############################
+// let a1 = ['a','b','c'] //0x1
+// let a2 = ['a','b','c'] //0x2
+// console.log(a1 == a2) //==>> เทียบตำแหน่งข้อมูล
+// let o1 = { a: 123, b: 456}
+// let o2 = { a: 123, b: 456}
+
+// let n1 = 10
+// let n2 = 10
+
+// console.log(typeof a1)
+// console.log(typeof o1)
+// console.log(typeof n1)
+ 
+// console.log(_.isEqual(a1, a2))  //use lodash
+
+// console.log(o1 == o2)
+// console.log(n1 == n2)
+
+// let text = 'Hello'
+// let copy = text
+// copy = 'Hi!'
+// console.log(copy)
+// console.log(text)
+// let obj = {a: 1, b: 2, c: 3}
+// let copy = _.cloneDeep(obj) //use lodash
+// copy.a = 10
+// copy.b = 20
+// console.log(copy)
+// console.log( obj)
+
