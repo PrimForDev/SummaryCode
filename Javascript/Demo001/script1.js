@@ -580,7 +580,7 @@ document.getElementById('title').innerText = 'สวัสดีครับ Jav
 
 // for(let row = 1; row <= rowCount; row++){
 //     let rowString = ''
-//     for(let dash = rowCount; dash >= row; dash--){
+//     for(let dash = rowCount; dash > row; dash--){
 //         rowString += '- '
 //     }
 //     for(let star = 1; star <= row; star++){
