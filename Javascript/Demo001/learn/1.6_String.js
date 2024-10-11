@@ -1,4 +1,3 @@
-//############1.6 string type###############
 // let s1 = 'Hello'
 // let s2 = "Hello"
 // console.log(s1, s2)

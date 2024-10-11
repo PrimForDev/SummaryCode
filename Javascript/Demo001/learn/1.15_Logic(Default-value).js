@@ -1,4 +1,3 @@
-//###############1.15 Logic Default value################
 // let color = prompt('What color?') || 'Black'
 
 // alert('Your shirt is ' + color)

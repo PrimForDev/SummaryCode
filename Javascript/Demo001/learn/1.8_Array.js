@@ -1,4 +1,3 @@
-//#################1.8 array###########################
 // let fruits = ['Apple','Banana','Cherry','Mango','Melon']
 // console.log(fruits)
 // console.log(fruits.length)

@@ -1,4 +1,3 @@
-//#################1.9 object###########################
 // let studentObj = { 
 //     firstName: 'John',
 //     lastName: 'Doe',

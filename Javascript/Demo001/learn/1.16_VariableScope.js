@@ -1,4 +1,3 @@
-//###########1.16 Variable scope##############
 // let input = 10
 
 // if (input >= 10){

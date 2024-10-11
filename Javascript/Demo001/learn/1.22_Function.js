@@ -1,6 +1,5 @@
 'use strict'
 document.getElementById('title').innerText = 'สวัสดีครับ JavaScript ใช้งานได้'
-//##############1.22 function####################################
 // function myFunction () {
 //     console.log('1')
 //     console.log('2')

@@ -1,4 +1,3 @@
-//###########1.12 logic shorthand  if else#######################
 // let age = prompt('Age:')
 // age >= 18 ? alert ('OK') : alert ('NO')
 

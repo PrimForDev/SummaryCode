@@ -1,4 +1,3 @@
-//############1.5 number type###############
 // let n1 = 12 //Int
 // let n2 = 12.52 //Floating
 // let n3 = NaN // Not a Number เกิดจากการแปลงค่าแต่ค่านั้นไม่ใช่ number

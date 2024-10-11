@@ -1,4 +1,3 @@
-//#################1.7 Interaction###########################
 // let firstName = 'John'
 // let lastName = 'Doe'
 // alert(`ชื่อของคุณคือ ${firstName} ${lastName}`)

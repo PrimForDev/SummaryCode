@@ -1,4 +1,3 @@
-//#############1.13 Logic swich case################################
 // let input = 'a'
 // switch (input) {
 //     case 1:

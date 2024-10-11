@@ -1,4 +1,3 @@
-//#############1.21 Loop break continue################################
 // while(true){
 //     let name = prompt('Name')
 //     if(name){
