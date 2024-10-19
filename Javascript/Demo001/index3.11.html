@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY Title2</title>
+    <script>
+        console.log('Hello world!')
+    </script>
+    <script defer src="learn/unit3/3.11_Fetch.js"></script>
+
+</head>
+
+<body>
+    <h1>Faker</h1>
+    <form id="faker">
+        <div>
+            <label>Locale:
+                <select name="locale">
+                    <option value="en_us">English</option>
+                    <option value="th_TH">Thai</option>
+                </select>
+            </label>
+        </div>
+        <div>
+            <label>Quantity:
+                <input name="quantity" type="number" value="10" max="1000">
+            </label>
+        </div>
+        <div>
+            <label>Gender:
+                <label>
+                    <input name="gender" type="radio" value="all" checked>
+                    All
+                </label>
+                <label>
+                    <input name="gender" type="radio" value="male">
+                    Male
+                </label>
+                <label>
+                    <input name="gender" type="radio" value="female">
+                    Female
+                </label>
+            </label>
+        </div>
+        <button>Get data</button>
+    </form>
+    <ul id="result">
+
+    </ul>
+</body>
+
+</html>
